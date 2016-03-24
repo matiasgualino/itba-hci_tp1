@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE 8]>
+<script type="text/javascript">
+location.replace("http://windows.microsoft.com/en-US/internet-explorer/products/ie/home");
+</script>
+<![endif]-->
+
+<html>
+<head>
+<title>B&G</title>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+<meta charset="utf-8">
+<meta name="description" content="B&G. Tienda de ropa online.">
+<meta name="author" content="HCI">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- CSS styles
+  ============================================================================== -->
+<link href="css/custom-style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" href="css/prettyPhoto.css" />
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/preset.css" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/grid.css" />
+<link rel="stylesheet" href="css/media-queries.css" />
+<link rel="stylesheet" href="css/superfish-modified.css" />
+<link rel="stylesheet" href="css/jquery.ui.slider.css" />
+<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+<link rel="stylesheet" href="css/icons/font-awesome.css" />
+<link rel="stylesheet" href="css/icons/font-theme.css" />
+<link rel="stylesheet" href="css/retina.css">
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/iview.css" />
+<link rel="stylesheet" href="css/iview/style.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css"  />
+<link rel="stylesheet" href="css/nouislider.fox.css" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css">
+<link rel="stylesheet" href="css/ie.css" />
+<link rel="stylesheet" href="css/hci.css" />
+
+<noscript>
+  <div id="no_script_msg">
+    <p> Habilite javascript y actualice la pagina.<br/>Si no sabe como:</p>
+    <a target="_blank" href="http://www.enable-javascript.com/es/">Click Aqui</a>
+  </div>
+</noscript>
+
+<!-- Javascripts
+    ============================================================================== -->
+<!--[if IE 8]><script src="js/respond.min.js"></script><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
+<script src="js/cssua.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/package.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.dlmenu.js"></script>
+<script src="js/jquery.base64.js"></script>
+<script src="js/jquery.session.js"></script>
+<script src="js/respond.src.js"></script>  
+<script src="js/wishlist.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/products.js"></script>
+<script src="js/product.js"></script>
+<script src="js/login.js"></script>
+</head>
+<body class="noIE">
+
+
+<div id="page" class="clearfix">
+
+<div class="navbar navbar-static  cbp-af-header" >
+  <div class="cbp-af-inner ">
+    <div class="navbar-inner container_9 "> <span  class="nav pull-left"> <a title="B&G" href="./index.html" class="logo "><img alt="B&G" src="images/media/logo.png"></a> </span>
+      <ul id="header_nav" class="nav pull-right">
+        <li id="li-registro"><i class=""></i> <a href="register.html">Registrarme</a></li>
+        <li id="li-login">
+        <i class="icon-user dropdown-link dropdown-toggle"></i><a class="dropdown-link">Ingresar</a>
+          <ul class="dropdown-login">
+            <li>
+              <div class="wrap-login-header">
+                  <form id="login-form-header">
+                      <ul class="form-list">
+                        <li>
+                          <label class="required" for="username"><em>*</em>Nombre de usuario</label>
+                          <div class="input-box">
+                            <input type="text" value="" name="username" id="username" class="input-text required-entry validate-email" placeholder="Nombre de usuario...">
+                          </div>
+                        </li>
+                        <li>
+                          <label class="required" for="password"><em>*</em>Clave</label>
+                          <div class="input-box">
+                            <input type="password" name="password" id="password" class="input-text required-entry" placeholder="Clave...">
+                          </div>
+                        </li>
+                      </ul>
+                  </form>
+                  <div class="buttons-set-header">
+                    <p class="required">* Campos requeridos</p>
+                    <a class="f-left" href="./forgotpassword.html">Olvide mi clave</a>
+                    <button id="btnLogin" class="button" type="submit"><span><span>Ingresar</span></span></button>
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </li>
+        <li><i class="icon-heart"></i> <a href="./wishlist.html">Lista de deseos</a></li>
+        <li><i class="icon-circle-arrow-right"></i> <a href="./checkout-step1.html">Confirmar compra</a></li>
+         <li>
+          <i class="icon-shopping-cart dropdown-link dropdown-toggle"></i><a class="dropdown-link" id="shoppingCartTitle">Mi carrito</a>
+          <ul class="dropdown-login">
+            <li>
+              <div  class="shop-cart-info" id="header-info-cart">  </div>
+            </li>
+            <li>
+              <a href="shopping-cart.html" class="center textCenter big  bold see-shop-cart">Ver mi carrito</a>
+            </li>
+          </ul>
+        </li>
+        <li id='li-user' class="invisible" ><i class='icon-user'></i><a href='./userAccount.html' id='usernameDesc'></a></li>
+        <li id="li-logout" class="invisible" ><i class=''></i><a>Salir</a></li>
+      </ul>
+    </div>
+    <script src="js/classie.js"></script> 
+    <script src="js/cbpAnimatedHeader.min.js"></script> 
+    
+    <!-- Header -->
+    
+    <header id="header"  class="third-bg" >
+      <div id="dl-menu" class="dl-menuwrapper" style="display:none;">
+        <button class="dl-trigger"> <span class="informer-menu first-brd">1</span></button>
+        <ul id="menu" class="dl-menu">
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="sf-contener clearfix second-bg ">
+    <nav class="nav-wrap container_9">
+      <ul id="menu-sf" class="sf-menu clearfix  ">
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  <section class="container_9 clearfix col2-right" id="columns"> 
+    <div id="crumbs">
+        <ul id="breadcrumbs-two">
+          <li><a href="./index.html">Inicio</a></li>
+        </ul>
+      </div>
+      <br />
+    <!-- Center -->
+    <article class=" grid_5" id="center_column" >
+      <div id="product-error"></div>
+      <div id="primary_block" class="clearfix"> 
+          
+        <!-- right infos-->
+        <div id="pb-right-column"> 
+          
+          <!-- product img-->
+          <div id="image-block"> 
+
+            <div id="wrap">  </div>
+          </div>
+          <div class="more-views">
+            <ul id="product-images">
+            </ul>
+          </div>
+        </div>
+        <div id="pb-left-column">
+          <div id="short_description_block">
+            <h1 id="product-name"></h1>
+            <div class="price">
+              <p class="our_price_display"> <span id="our_price_display"></span> </p>
+            </div>
+            <div class="ratings">
+              <div class="rating-box" id="product-rating">
+              </div>
+            </div>
+          </div>
+          <div class="product_attributes">
+            <div class="add-to-box">
+              <div class="input-qty-box">
+                <div class="input">
+                  <ul class="range">
+                    <li class="item minus"><a style=" cursor:pointer">-</a></li>
+                    <li>
+                      <input type="text" name="qty" id="quantity_wanted" class="input-text qty text" value="1" size="2" maxlength="3">
+                    </li>
+                    <li class="item plus"><a style=" cursor:pointer">+</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div id="color-option-select" class="option-select">
+              </div>
+              <div id="size-option-select" class="option-select">
+              </div>
+              <br>
+              <br>
+              <hr>
+              <div class="btn-set">
+                <div class="actions"><a class="btn-circle first-bg btn-active" id="btnShoppingCart">
+                Agregar al carrito <i class="icon-shopping-cart"></i> </a> <a id="btnWish" class="btn-circle first-bg-hover"> <i class="icon-heart"></i> </a></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#home" data-toggle="tab">Detalle</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade active in product-details" id="home">
+              </div>
+              <div class="tab-pane fade" id="dropdown1">
+                <p>Muy buen producto! Lo recomiendo, es fresco y han realizado el envio rapido!</p>
+              </div>
+              <div class="tab-pane fade" id="dropdown2">
+                <p>Compramos 50 unidades para todo el personal, muy buena calidad. Rapido envio, excelente atencion.</p>
+              </div>
+            </div>
+           
+          </div>
+
+          <div id="accordion2" class="accordion">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a href="#collapseOne" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle"> Silvia Gomez (@silviagomez) </a>
+              </div>
+              
+              <div class="accordion-body collapse in" id="collapseOne">
+                  <div class="accordion-inner"> Excelente producto! Realizaron el envio muy rapido!</div>
+              </div>
+            </div>
+            
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a href="#collapseTwo" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle"> Alejandra Buquete (@abuquete) </a>
+              </div>
+                
+              <div class="accordion-body collapse" id="collapseTwo">
+                <div class="accordion-inner"> Compramos 50 unidades para todo el personal, muy buena calidad. Rapido envio, excelente atencion.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a href="#collapseThree" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle"> Leticia Gomez (@letigomez) </a>
+              </div>
+              
+              <div class="accordion-body collapse" id="collapseThree">
+                <div class="accordion-inner"> Entre a la pagina para comprar una pavada, y termine llevandome de todo. Muy buen producto. Super satisfecha.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+   
+    </article>
+    
+    <!-- Right -->
+      <aside class="column grid_2 omega" id="right_column"> 
+      
+      <!-- /Block categories module --> 
+      
+      <!-- Block Featured Products -->
+      <div class="block" >
+        <h4 class="title_block">Productos relacionados</h4>
+        <div class="block_content">
+          <table>
+            <tbody id="related-products">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- /Block Featured Products --> 
+
+    </aside>  
+  </section>
+  
+ <section  id="columns" class="container_9 clearfix col1" > 
+    
+    <!-- Center -->
+    <article id="center_column" class=" grid_5" >
+  <div class="width-carousel ">
+  <div class="title-box">
+    <h3 class="title-carousel first-brd">PRODUCTOS DESTACADOS</h3>
+  </div>
+  <ul class="products-grid first odd bxslider" id="productos-destacados">
+  </ul>
+</div>
+    </article>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" >
+    <div class="footer-wrap container_9 "> <a href="#" class="backtotop"><img src="images/backtotop.png"  alt="Subir" title="Subir" ></a>
+  <div class="footer-set">
+    <div class="block">
+          <h4>Somos sociales</h4>
+           <div class="block_content">
+		  <div id="footer-absolute" class="clearfix">
+        <div class="social">
+          <p><a href="#"> <em class="icon-facebook"><span>icon</span></em></a> <a href="#"><em class="icon-twitter"><span>icon</span></em></a> <a href="#"><em class="icon-rss"><span>icon</span></em></a> <a href="#"><em class="icon-pinterest"><span>icon</span></em></a> <a href="#"><em class="icon-google-plus"><span>icon</span></em></a></p>
+        </div>
+      </div>
+          </div>
+      <h4 class="nws-title">Novedades</h4>
+      <form >
+      <input type="text" class="input-footer" placeholder="Direccion de correo" value="" name="email">
+      <input type="submit" class="submit-footer" value="SUSCRIBIR" name="submit">
+      </form>
+      <p>Suscribite para recibir ofertas y descuentos en tu correo electronico</p>
+        </div>    <div class="block">
+          <h4>Empresa</h4>
+          <div class="block_content">
+            <ul>
+              <li><a href="index.html?controller=history">Nosotros</a></li>
+              <li><a title="Mapa del sitio" href="index.html?controller=sitemap">Mapa del sitio</a></li>
+            </ul>
+          </div>
+        </div>    <div class="block">
+          <h4>Informacion</h4>
+          <div class="block_content">
+            <ul>
+              <li class="item"><a title="Envios" href="index.html?id_cms=1&amp;controller=cms&amp;id_lang=1">Envios</a></li>
+              <li class="item"><a title="Legal" href="index.html?id_cms=2&amp;controller=cms&amp;id_lang=1">Legal</a></li>
+              
+            </ul>
+          </div>
+        </div>    <div class="block last">
+  <h4>¿Donde estamos?</h4>
+  <div class="block_content"> HCI Master <br />
+    Av. Eduardo Madero 399 <br />
+    Buenos Aires <br />
+    Argentina <br />
+    Tel: (+54 11) 6393 - ITBA (4822) <br />
+    e-mail: <a href="mailto:informes@itba.edu.ar">informes@itba.edu.ar</a> </div>
+</div>
+  </div>
+</div>
+  </footer>
+   <div class="footer-wrap container_9">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+          <p>HCI 2014. Todos los derechos reservados<img src="images/Payments.png" class="right" alt="Metodos de pago" title="Metodos de pago" ></p>
+=======
+>>>>>>> 582b9ffb515ac0db922a747021026c5dd8f2e71b
+          <p>HCI 2014. Todos los derechos reservados
+            <img class ="Payment-image" src="images/Payment-visa.png"  alt="Metodos de pago" title="Visa" >
+            <img class ="Payment-image" src="images/Payment-maestro.png"  alt="Metodos de pago" title="Maestro">
+            <img class ="Payment-image" src="images/Payment-paypal.png" alt="Metodos de pago" title="PayPal" >
+            <img class ="Payment-image" src="images/Payment-s.png"  alt="Metodos de pago" title="S" ></p>
+<<<<<<< HEAD
+=======
+          <p>HCI 2014. Todos los derechos reservados<img src="images/Payments.png" class="right" alt="Metodos de pago" title="Metodos de pago" ></p>
+>>>>>>> 87eb0360d9f8de4a106d584c18d8e2f6fce89da7
+=======
+>>>>>>> 869e8affd50d25b95a6e32b3a3b1fe69ea129526
+>>>>>>> 582b9ffb515ac0db922a747021026c5dd8f2e71b
+        </div></div>
+</body>
+</html>

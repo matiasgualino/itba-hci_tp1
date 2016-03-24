@@ -1,0 +1,247 @@
+.caption-contain * {
+	text-align: center;
+	color: #CBC4C8;
+}
+.caption-contain h3 {
+	font-family: 'bebas_neueregular';
+	font-size: 33px;
+	border-bottom: 2px solid #CBC4C8;
+}
+.caption-contain p {
+	font-size: 16px;
+	color: #fff;
+}
+.caption-contain h5 strong {
+	font-weight: 600;
+}
+.caption-contain h5 {
+	font-size: 28px;
+}
+#iview .btn {
+	border: medium none;
+	border-radius: 7px !important;
+	font-size: 16px;
+	min-width: 95px;
+	padding: 12px 18px;
+	color:#96857C !important;
+}
+ @media only screen and (max-width: 800px) {
+#iview {
+	display: block;
+	max-width: 800px;
+	min-width: 300px;
+	padding: 5px;
+	position: relative;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#iview .iviewSlider {
+	display: block;
+	width: 900px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+#iview div.iview-directionNav {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
+#iview div.iview-directionNav a {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	background-image: url(../../images/iview/bg_direction_nav.png);
+	text-indent: -9999px;
+	-webkit-transition: left 0.3s ease-in-out;
+	-webkit-transition-property: left, right;
+	-moz-transition: left 0.3s ease-in-out;
+	-moz-transition-property: left, right;
+	-o-transition: left 0.3s ease-in-out;
+	-o-transition-property: left, right;
+	-ms-transition: left 0.3s ease-in-out;
+	-ms-transition-property: left, right;
+	transition: left 0.3s ease-in-out;
+	transition-property: left, right;
+}
+#iview div.iview-directionNav a.iview-nextNav {
+	right: -27px;
+	background-position: 27px 0px;
+}
+#iview div.iview-directionNav a.iview-prevNav {
+	left: -27px;
+	background-position: 0px 0px
+}
+#iview.iview-hover div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+}
+#iview.iview-hover div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+}
+.iview-caption {
+	background: url('../../images/iview/caption-bg.png');
+	color: #FFF;
+	border-radius: 3px;
+	padding: 10px 15px;
+	font-family: Verdana;
+	font-size: 12px;
+	text-shadow: #000 1px 1px 0px;
+}
+.iview-caption.caption1 {
+	text-shadow: none;
+}
+.iview-caption.caption2 {
+	background: #FFF;
+	color: #000;
+	text-shadow: none;
+}
+.iview-caption.caption3 {
+	background: #c4302b;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+}
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+#iview-preloader div {
+	background: #666;
+}
+#iview-timer {
+	border-radius: 10px;
+}
+#iview-timer div {
+	border-radius: 10px;
+}
+#iview div.iview-directionNav a {
+	background-image: url("../../images/iview/theme-control.png");
+	background-position: center 11px !important;
+	background-repeat: no-repeat;
+	bottom: 5px !important;
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	position: absolute;
+	text-indent: -9999px;
+	top: auto !important;
+	transition-delay: 0s;
+	transition-duration: 0.3s;
+	transition-property: left, right;
+	transition-timing-function: ease-in-out;
+	width: 110px;
+}
+#iview div.iview-directionNav a.iview-nextNav {
+	right: 20% !important;
+	background-position: center 11px !important;
+}
+#iview div.iview-directionNav a.iview-prevNav {
+	background-position: center -180px !important;
+	left: 20% !important;
+}
+}
+ @media only screen and (min-width: 800px) {
+#iview {
+	display: block;
+	position: relative;
+	margin: 0px auto;
+	overflow: hidden;
+	max-width: 1920px;
+}
+#iview .iviewSlider {
+	display: block;
+	height: 536px;
+	overflow: hidden;
+}
+#iview div.iview-directionNav {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
+#iview div.iview-directionNav a:hover {
+}
+#iview div.iview-directionNav a {
+	background-position: center 11px !important;
+	background-repeat: no-repeat;
+	bottom: 200px;
+	cursor: pointer;
+	display: block;
+	height: 116px;
+	position: absolute;
+	text-indent: -9999px;
+	top: auto !important;
+	transition-delay: 0s;
+	transition-duration: 0.3s;
+	transition-property: left, right;
+	transition-timing-function: ease-in-out;
+	width: 112px;
+}
+#iview div.iview-directionNav a.iview-nextNav {
+	right: -10%;
+	background-image: url("../../images/iview/theme-control.png");
+}
+.slider-home-page:hover .iview-nextNav {
+	right: 10% !important;
+}
+#iview div.iview-directionNav a.iview-nextNav:hover {
+	opacity: 0.7;
+}
+#iview div.iview-directionNav a.iview-prevNav {
+	background-image: url("../../images/iview/theme-control2.png");
+	left: -10%;
+}
+#iview div.iview-directionNav a.iview-prevNav:hover {
+	left: 10% !important;
+}
+.slider-home-page:hover .iview-prevNav {
+	left: 10% !important;
+}
+#iview div.iview-directionNav a.iview-prevNav:hover {
+	opacity: 0.7;
+}
+#iview.iview-hover div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+}
+#iview.iview-hover div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+}
+.iview-caption {
+	color: #CBC4C8;
+	border-radius: 3px;
+	padding: 10px 15px;
+	font-family: Georgia;
+	font-size: 12px;
+	text-shadow: #000 1px 1px 0px;
+}
+.iview-caption.caption1 {
+	text-shadow: none;
+}
+.iview-caption.caption2 {
+	background: #FFF;
+	color: #000;
+	text-shadow: none;
+}
+.iview-caption.caption3 {
+	background: #c4302b;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+}
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+#iview-preloader div {
+	background: #666;
+}
+#iview-timer {
+	border-radius: 10px;
+}
+#iview-timer div {
+	border-radius: 10px;
+}
+}

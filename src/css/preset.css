@@ -1,0 +1,39 @@
+/* 2Col-set  >> left
+----------------------------------------------------------------------------------------------------*/
+
+
+.col2-left #center_column {
+float: right;
+    margin-right: 0;
+    width: 840px;
+}
+.col2-left #right_column {
+	display:none;
+}
+/* 2Col-set  >> right
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.col2-right #center_column {
+  margin-right: 0;
+    width: 840px;
+}
+.col2-right #left_column {
+	display:none;
+}
+.col2-right #right_column {
+	float:right;
+}
+/* 1Col-set 
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.col1 #center_column {
+	margin-right: 0;
+	width: 100%;
+}
+.col1 #left_column, .col1 #right_column {
+	display:none;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE 8]>
+<script type="text/javascript">
+location.replace("http://windows.microsoft.com/en-US/internet-explorer/products/ie/home");
+</script>
+<![endif]-->
+
+<html>
+<head>
+<title>B&G</title>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+<meta charset="utf-8">
+<meta name="description" content="B&G. Tienda de ropa online.">
+<meta name="author" content="HCI">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- CSS styles
+  ============================================================================== -->
+<link href="css/custom-style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" href="css/prettyPhoto.css" />
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/preset.css" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/grid.css" />
+<link rel="stylesheet" href="css/media-queries.css" />
+<link rel="stylesheet" href="css/superfish-modified.css" />
+<link rel="stylesheet" href="css/jquery.ui.slider.css" />
+<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+<link rel="stylesheet" href="css/icons/font-awesome.css" />
+<link rel="stylesheet" href="css/icons/font-theme.css" />
+<link rel="stylesheet" href="css/retina.css">
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/iview.css" />
+<link rel="stylesheet" href="css/iview/style.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css"  />
+<link rel="stylesheet" href="css/nouislider.fox.css" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css">
+<link rel="stylesheet" href="css/ie.css" />
+<link rel="stylesheet" href="css/hci.css" />
+
+<noscript>
+  <div id="no_script_msg">
+    <p> Habilite javascript y actualice la pagina.<br/>Si no sabe como:</p>
+    <a target="_blank" href="http://www.enable-javascript.com/es/">Click Aqui</a>
+  </div>
+</noscript>
+
+<!-- Javascripts
+    ============================================================================== -->
+<!--[if IE 8]><script src="js/respond.min.js"></script><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
+<script src="js/cssua.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/package.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.dlmenu.js"></script>
+<script src="js/jquery.session.js"></script>
+<script src="js/jquery.base64.js"></script>
+<script src="js/respond.src.js"></script>  
+<script src="js/scripts.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/checkout.js"></script>
+<script src="js/login.js"></script>
+</head>
+<body class="noIE">
+
+
+<div id="page" class="clearfix">
+
+<div class="navbar navbar-static  cbp-af-header" >
+  <div class="cbp-af-inner ">
+    <div class="navbar-inner container_9 "> <span  class="nav pull-left"> <a title="B&G" href="./index.html" class="logo "><img alt="B&G" src="images/media/logo.png"></a> </span>
+      <ul id="header_nav" class="nav pull-right">
+        <li id="li-registro"><i class=""></i> <a href="register.html">Registrarme</a></li>
+        <li id="li-login">
+        <i class="icon-user dropdown-link dropdown-toggle"></i><a class="dropdown-link">Ingresar</a>
+          <ul class="dropdown-login">
+            <li>
+              <div class="wrap-login-header">
+                  <form id="login-form-header">
+                      <ul class="form-list">
+                        <li>
+                          <label class="required" for="username"><em>*</em>Nombre de usuario</label>
+                          <div class="input-box">
+                            <input type="text" value="" name="username" id="username" class="input-text required-entry validate-email" placeholder="Nombre de usuario...">
+                          </div>
+                        </li>
+                        <li>
+                          <label class="required" for="password"><em>*</em>Clave</label>
+                          <div class="input-box">
+                            <input type="password" name="password" id="password" class="input-text required-entry" placeholder="Clave...">
+                          </div>
+                        </li>
+                      </ul>
+                  </form>
+                  <div class="buttons-set-header">
+                    <p class="required">* Campos requeridos</p>
+                    <a class="f-left" href="./forgotpassword.html">Olvide mi clave</a>
+                    <button id="btnLogin" class="button" type="submit"><span><span>Ingresar</span></span></button>
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </li>
+        <li><i class="icon-heart"></i> <a href="./wishlist.html">Lista de deseos</a></li>
+        <li><i class="icon-circle-arrow-right"></i> <a href="./checkout-step1.html">Confirmar compra</a></li>
+         <li>
+          <i class="icon-shopping-cart dropdown-link dropdown-toggle"></i><a class="dropdown-link" id="shoppingCartTitle">Mi carrito</a>
+          <ul class="dropdown-login">
+            <li>
+              <div  class="shop-cart-info" id="header-info-cart">  </div>
+            </li>
+            <li>
+              <a href="shopping-cart.html" class="center textCenter big  bold see-shop-cart">Ver mi carrito</a>
+            </li>
+          </ul>
+        </li>
+        <li id='li-user' class="invisible" ><i class='icon-user'></i><a href='./userAccount.html' id='usernameDesc'></a></li>
+        <li id="li-logout" class="invisible" ><i class=''></i><a>Salir</a></li>
+      </ul>
+    </div>
+    <script src="js/classie.js"></script> 
+    <script src="js/cbpAnimatedHeader.min.js"></script> 
+    
+    <!-- Header -->
+    
+    <header id="header"  class="third-bg" >
+      <div id="dl-menu" class="dl-menuwrapper" style="display:none;">
+        <button class="dl-trigger"> <span class="informer-menu first-brd">1</span></button>
+        <ul id="menu" class="dl-menu">
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="sf-contener clearfix second-bg ">
+    <nav class="nav-wrap container_9">
+      <ul id="menu-sf" class="sf-menu clearfix  ">
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  <section class="container_9 clearfix col1" id="columns">
+  <div id="crumbs">
+        <ul id="breadcrumbs-two">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="#2">Confirmacion de compra</a></li>
+          <li><a href="#4">Paso 4</a></li>
+        </ul>
+      </div>
+      <br />
+    <article class=" grid_5" id="center_column">
+      <ol id="checkoutSteps" class="opc">
+        <li class="section" id="opc-shipping_method">
+          <div class="step-title allow active"> <span class="number">PASO 4</span>
+            <h2>Metodo de envio</h2>
+            <a href="#">Edit</a> </div>
+          <div  class="step a-item" id="checkout-step-shipping_method" >
+            <form  id="co-shipping-method-form">
+              <div id="checkout-shipping-method-load">
+                <dl class="sp-methods">
+                  <dt>Envio por correo</dt>
+                  <dd>
+                    <ul>
+                      <li> <span class="no-display">
+                        <input type="radio" checked="checked" id="s_method_flatrate_flatrate" value="flatrate_flatrate" name="shipping_method">
+                        </span>
+                        <label for="s_method_flatrate_flatrate">Precio <span class="price">$100.00</span> </label>
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
+              <div id="onepage-checkout-shipping-method-additional-load"> </div>
+              <div id="shipping-method-buttons-container" class="buttons-set">
+                <p class="back-link"><a onclick="toCheckout(3);" href="#"><small>« </small>Atras</a></p>
+                <button onclick="toCheckout(5);" class="button" type="button"><span><span>Continuar</span></span></button>
+                <span style="display:none;" class="please-wait" id="shipping-method-please-wait"> <img class="v-middle" title="Cargando siguiente paso..." alt="Cargando siguiente paso..." src="images/opc-ajax-loader.gif"> Cargando siguiente paso... </span> </div>
+            </form>
+          </div>
+        </li>
+      </ol>
+    </article>
+   
+  </section>
+  <br /><br />
+  <!-- Footer -->
+  <footer id="footer" >
+    <div class="footer-wrap container_9 "> <a href="#" class="backtotop"><img src="images/backtotop.png"  alt="Subir" title="Subir" ></a>
+  <div class="footer-set">
+    <div class="block">
+          <h4>Somos sociales</h4>
+           <div class="block_content">
+      <div id="footer-absolute" class="clearfix">
+        <div class="social">
+          <p><a href="#"> <em class="icon-facebook"><span>icon</span></em></a> <a href="#"><em class="icon-twitter"><span>icon</span></em></a> <a href="#"><em class="icon-rss"><span>icon</span></em></a> <a href="#"><em class="icon-pinterest"><span>icon</span></em></a> <a href="#"><em class="icon-google-plus"><span>icon</span></em></a></p>
+        </div>
+      </div>
+          </div>
+      <h4 class="nws-title">Novedades</h4>
+      <form >
+      <input type="text" class="input-footer" placeholder="Direccion de correo" value="" name="email">
+      <input type="submit" class="submit-footer" value="SUSCRIBIR" name="submit">
+      </form>
+      <p>Suscribite para recibir ofertas y descuentos en tu correo electronico</p>
+        </div>    <div class="block">
+          <h4>Empresa</h4>
+          <div class="block_content">
+            <ul>
+              <li><a href="index.html?controller=history">Nosotros</a></li>
+              <li><a title="Mapa del sitio" href="index.html?controller=sitemap">Mapa del sitio</a></li>
+            </ul>
+          </div>
+        </div>    <div class="block">
+          <h4>Informacion</h4>
+          <div class="block_content">
+            <ul>
+              <li class="item"><a title="Envios" href="index.html?id_cms=1&amp;controller=cms&amp;id_lang=1">Envios</a></li>
+              <li class="item"><a title="Legal" href="index.html?id_cms=2&amp;controller=cms&amp;id_lang=1">Legal</a></li>
+              
+            </ul>
+          </div>
+        </div>    <div class="block last">
+  <h4>¿Donde estamos?</h4>
+  <div class="block_content"> HCI Master <br />
+    Av. Eduardo Madero 399 <br />
+    Buenos Aires <br />
+    Argentina <br />
+    Tel: (+54 11) 6393 - ITBA (4822) <br />
+    e-mail: <a href="mailto:informes@itba.edu.ar">informes@itba.edu.ar</a> </div>
+</div>
+  </div>
+</div>
+  </footer>
+   <div class="footer-wrap container_9">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+          <p>HCI 2014. Todos los derechos reservados<img src="images/Payments.png" class="right" alt="Metodos de pago" title="Metodos de pago" ></p>
+=======
+>>>>>>> 582b9ffb515ac0db922a747021026c5dd8f2e71b
+          <p>HCI 2014. Todos los derechos reservados
+            <img class ="Payment-image" src="images/Payment-visa.png"  alt="Metodos de pago" title="Visa" >
+            <img class ="Payment-image" src="images/Payment-maestro.png"  alt="Metodos de pago" title="Maestro">
+            <img class ="Payment-image" src="images/Payment-paypal.png" alt="Metodos de pago" title="PayPal" >
+            <img class ="Payment-image" src="images/Payment-s.png"  alt="Metodos de pago" title="S" ></p>
+<<<<<<< HEAD
+=======
+          <p>HCI 2014. Todos los derechos reservados<img src="images/Payments.png" class="right" alt="Metodos de pago" title="Metodos de pago" ></p>
+>>>>>>> 87eb0360d9f8de4a106d584c18d8e2f6fce89da7
+=======
+>>>>>>> 869e8affd50d25b95a6e32b3a3b1fe69ea129526
+>>>>>>> 582b9ffb515ac0db922a747021026c5dd8f2e71b
+        </div></div>
+</body>
+</html>

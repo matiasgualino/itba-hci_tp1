@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE 8]>
+<script type="text/javascript">
+location.replace("http://windows.microsoft.com/en-US/internet-explorer/products/ie/home");
+</script>
+<![endif]-->
+
+<html>
+<head>
+<title>B&G</title>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+<meta charset="utf-8">
+<meta name="description" content="B&G. Tienda de ropa online.">
+<meta name="author" content="HCI">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- CSS styles
+  ============================================================================== -->
+<link href="css/custom-style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" href="css/prettyPhoto.css" />
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/preset.css" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/grid.css" />
+<link rel="stylesheet" href="css/media-queries.css" />
+<link rel="stylesheet" href="css/superfish-modified.css" />
+<link rel="stylesheet" href="css/jquery.ui.slider.css" />
+<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+<link rel="stylesheet" href="css/icons/font-awesome.css" />
+<link rel="stylesheet" href="css/icons/font-theme.css" />
+<link rel="stylesheet" href="css/retina.css">
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/iview.css" />
+<link rel="stylesheet" href="css/iview/style.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css"  />
+<link rel="stylesheet" href="css/nouislider.fox.css" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css">
+<link rel="stylesheet" href="css/ie.css" />
+<link rel="stylesheet" href="css/hci.css" />
+
+<noscript>
+  <div id="no_script_msg">
+    <p> Habilite javascript y actualice la pagina.<br/>Si no sabe como:</p>
+    <a target="_blank" href="http://www.enable-javascript.com/es/">Click Aqui</a>
+  </div>
+</noscript>
+
+<!-- Javascripts
+    ============================================================================== -->
+<!--[if IE 8]><script src="js/respond.min.js"></script><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
+<script src="js/cssua.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/package.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.dlmenu.js"></script>
+<script src="js/jquery.session.js"></script>
+<script src="js/jquery.base64.js"></script>
+<script src="js/respond.src.js"></script>  
+<script src="js/scripts.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/checkout.js"></script>
+<script src="js/register.js"></script>
+<script src="js/login.js"></script>
+<script src="js/userAccount.js"></script>
+</head>
+<body class="noIE">
+
+
+<div id="page" class="clearfix">
+
+<div class="navbar navbar-static  cbp-af-header" >
+  <div class="cbp-af-inner ">
+    <div class="navbar-inner container_9 "> <span  class="nav pull-left"> <a title="B&G" href="./index.html" class="logo "><img alt="B&G" src="images/media/logo.png"></a> </span>
+      <ul id="header_nav" class="nav pull-right">
+        <li id="li-registro"><i class=""></i> <a href="register.html">Registrarme</a></li>
+        <li id="li-login">
+        <i class="icon-user dropdown-link dropdown-toggle"></i><a class="dropdown-link">Ingresar</a>
+          <ul class="dropdown-login">
+            <li>
+              <div class="wrap-login-header">
+                  <form id="login-form-header">
+                      <ul class="form-list">
+                        <li>
+                          <label class="required" for="username"><em>*</em>Nombre de usuario</label>
+                          <div class="input-box">
+                            <input type="text" value="" name="username" id="username" class="input-text required-entry validate-email" placeholder="Nombre de usuario...">
+                          </div>
+                        </li>
+                        <li>
+                          <label class="required" for="password"><em>*</em>Clave</label>
+                          <div class="input-box">
+                            <input type="password" name="password" id="password" class="input-text required-entry" placeholder="Clave...">
+                          </div>
+                        </li>
+                      </ul>
+                  </form>
+                  <div class="buttons-set-header">
+                    <p class="required">* Campos requeridos</p>
+                    <a class="f-left" href="./forgotpassword.html">Olvide mi clave</a>
+                    <button id="btnLogin" class="button" type="submit"><span><span>Ingresar</span></span></button>
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </li>
+        <li><i class="icon-heart"></i> <a href="#">Lista de deseos</a></li>
+        <li><i class="icon-circle-arrow-right"></i> <a href="./checkout-step1.html">Confirmar compra</a></li>
+         <li>
+          <i class="icon-shopping-cart dropdown-link dropdown-toggle"></i><a class="dropdown-link" id="shoppingCartTitle">Mi carrito</a>
+          <ul class="dropdown-login">
+            <li>
+              <div  class="shop-cart-info" id="header-info-cart">  </div>
+            </li>
+            <li>
+              <a href="shopping-cart.html" class="center textCenter big  bold see-shop-cart">Ver mi carrito</a>
+            </li>
+          </ul>
+        </li>
+        <li id='li-user' class="invisible" ><i class='icon-user'></i><a href='./userAccount.html' id='usernameDesc'></a></li>
+        <li id="li-logout" class="invisible" ><i class=''></i><a>Salir</a></li>
+      </ul>
+    </div>
+    <script src="js/classie.js"></script> 
+    <script src="js/cbpAnimatedHeader.min.js"></script> 
+    
+    <!-- Header -->
+    
+    <header id="header"  class="third-bg" >
+      <div id="dl-menu" class="dl-menuwrapper" style="display:none;">
+        <button class="dl-trigger"> <span class="informer-menu first-brd">1</span></button>
+        <ul id="menu" class="dl-menu">
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="sf-contener clearfix second-bg ">
+    <nav class="nav-wrap container_9">
+      <ul id="menu-sf" class="sf-menu clearfix  ">
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  <section class="container_9 clearfix col1" id="columns">
+  <div id="crumbs">
+        <ul id="breadcrumbs-two">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="#">Mi cuenta</a></li>
+        </ul>
+      </div>
+      <br />
+    <article class=" grid_5" id="center_column">
+      <ol id="checkoutSteps" class="opc">
+       <li class="section" id="opc-billing">
+          <div class="step-title allow active"> <span class="number">B&G</span>
+            <h2>Mis datos</h2> </div>
+          <div  class="step a-item" id="checkout-step-billing" >
+          <form  id="register-form">
+              <fieldset>
+                <ul class="form-list">
+                  <li >
+                    <fieldset>
+                      <ul>
+                      <li class="fields">
+                          <div class="customer-name" id="user-data">
+                            <label>A continuación te mostramos los datos que ingresaste al registrarte.</label><br/><br/>
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="customer-name">
+                            <div class="field">
+                              <label for="firstname"><em></em>Nombre y Apellido</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" title="Nombre" value="" name="names" id="names" disabled>
+                              </div>
+                            </div>
+                            <div class="field">
+                            <label for="email"><em></em>Correo electronico</label>
+                            <div class="input-box">
+                              <input type="text" class="input-text validate-email required-entry" title="Correo electronico" value="" id="email" name="email" disabled>
+                            </div>
+                          </div>
+                          <div class="field">
+                              <label for="usernameReg"><em></em>Nombre de usuario</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" title="Nombre de usuario" value="" name="usernameReg" id="usernameReg" disabled>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="customer-name">
+                            <div class="field">
+                              <label for="genero"><em></em>Género</label>
+                              <div class="input-box">
+                                <input class="input-text required-entry validate-password" title="genero" id="genero" name="genero" disabled>
+                              </div>
+                            </div>
+                          <div class="field">
+                            <label for="dni"><em></em>DNI</label>
+                            <div class="input-box">
+                              <input class="input-text required-entry validate-password" title="DNI" id="dni" name="dni" disabled>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label for="date"><em></em>Fecha de nacimiento</label>
+                            <div class="input-box">
+                              <input class="input-text required-entry" id="date" title="Fecha de nacimiento" name="date" disabled>
+                            </div>
+                          </div>
+                          </div>
+                        </li>
+                </ul>
+              </fieldset>
+            </form>
+          </div>
+        </li>
+        <li class="section" id="opc-billing">
+          <div class="step-title allow active"> <span class="number">B&G</span>
+            <h2>Direcciones</h2> </div>
+          <div  class="step a-item" id="checkout-step-billing" >
+          <form  id="addresses-form">
+              <fieldset>
+                <ul class="form-list">
+                  <li >
+                    <fieldset>
+                      <ul>
+                      <li class="fields">
+                          <div class="customer-name" id="user-data">
+                            <label>A continuación se listan tus direcciones, si no tienes o falta alguna, podras agregarlas.</label><br/><br/>
+                          </div>
+                        </li>
+                        <table id="addresses-table" class="data-table cart-table">
+                <colgroup>
+                <col width="1">
+                <col>
+                <col width="1">
+                <col width="1">
+                </colgroup>
+                <thead>
+                  <tr class="first last">
+                    <th rowspan="1" class="product-image-unit" ><span>Nombre</span></th>
+                    <th class="product-name-unit" rowspan="1"><span class="nobr">Direccion</span> </th>
+                    <th class="a-center" colspan="1"><span class="nobr">Ciudad</span></th>
+                    <th class="a-center" colspan="1"><span class="nobr">Telefono</span></th>
+                  </tr>
+                </thead>
+                <tbody id="addresses-details">
+                  
+                </tbody>
+              </table>
+              </li>
+              <li class="fields">
+                          <div class="customer-name">
+                            <div class="field">
+                              <label class="required" for="addressName"><em></em>Nombre</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" title="Nombre" value="" name="addressName" id="addressName" >
+                              </div>
+                            </div>
+                            <div class="field">
+                              <label class="required" for="addressStreet"><em></em>Calle</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" title="Calle" value="" name="addressStreet" id="addressStreet" >
+                              </div>
+                            </div>
+                            <div class="field">
+                              <label class="required" for="addressNumber"><em></em>Numero</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" title="Numero" value="" name="addressNumber" id="addressNumber" >
+                              </div>
+                            </div>
+                        </li>
+                        <li class="fields">
+                          <div class="customer-name">
+                            <div class="field">
+                              <label for="region_id"><em></em>Provincia</label>
+                              <div class="input-box">
+                                <select id="region_id"></select>
+                              </div>
+                            </div>
+                          <div class="field">
+                            <label for="zip"><em></em>Codigo postal</label>
+                            <div class="input-box">
+                              <input class="input-text required-entry validate-password" title="Codigo Postal" id="zip" name="zip" >
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label for="phone"><em></em>Telefono</label>
+                            <div class="input-box">
+                              <input class="input-text required-entry" id="phone" title="Telefono de contacto" name="phone" >
+                            </div>
+                          </div>
+                          </div>
+                        </li>
+                </ul>
+                <div id="billing-buttons-container" class="buttons-set">
+                  <p class="required">* Campos obligatorios</p>
+                  <button class="button" title="Agregar Direccion" id="btnAddAddress" type="button"><span><span>Agregar Direccion</span></span></button></div>
+              </fieldset>
+            </form>
+          </div>
+        </li>
+        <li class="section" id="opc-billing">
+          <div class="step-title allow active"> <span class="number">B&G</span>
+            <h2>Cambio de Clave</h2> </div>
+          <div  class="step a-item" id="checkout-step-billing" >
+          <form  id="changePassword-form">
+              <fieldset>
+                <ul class="form-list">
+                  <li >
+                    <fieldset>
+                      <ul>
+                      <li class="fields">
+                          <div class="customer-name" id="user-data">
+                            <label>A continuación deberas ingresar tu nombre de usuario, la clave actual y la clave con la que deseas manejarte a partir de este momento.</label><br/><br/>
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="customer-name">
+                            <div class="field">
+                              <label class="required" for="usernameCHP"><em>*</em>Nombre de usuario</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" title="Nombre de usuario" value="" name="usernameCHP" id="usernameCHP">
+                              </div>
+                            </div>
+                          <div class="field">
+                            <label class="required" for="passwordCHP"><em>*</em>Clave</label>
+                            <div class="input-box">
+                              <input type="password" class="input-text required-entry validate-password" title="Clave" id="passwordCHP" name="passwordCHP">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label class="required" for="new_passwordCHP"><em>*</em>Confirmar clave</label>
+                            <div class="input-box">
+                              <input type="password" class="input-text required-entry validate-cpassword" id="new_passwordCHP" title="Nueva clave" name="new_passwordCHP">
+                            </div>
+                          </div>
+                          </div>
+                        </li>
+                </ul>
+                <div id="billing-buttons-container" class="buttons-set">
+                  <p class="required">* Campos obligatorios</p>
+                  <button class="button" title="Cambiar Clave" id="btnChangePassword" type="button"><span><span>Cambiar Clave</span></span></button></div>
+              </fieldset>
+            </form>
+          </div>
+        </li>
+        
+      </ol>
+    </article>
+   
+  </section>
+  <br /><br />
+  <!-- Footer -->
+  <footer id="footer" >
+    <div class="footer-wrap container_9 "> <a href="#" class="backtotop"><img src="images/backtotop.png"  alt="Subir" title="Subir" ></a>
+  <div class="footer-set">
+    <div class="block">
+          <h4>Somos sociales</h4>
+           <div class="block_content">
+      <div id="footer-absolute" class="clearfix">
+        <div class="social">
+          <p><a href="#"> <em class="icon-facebook"><span>icon</span></em></a> <a href="#"><em class="icon-twitter"><span>icon</span></em></a> <a href="#"><em class="icon-rss"><span>icon</span></em></a> <a href="#"><em class="icon-pinterest"><span>icon</span></em></a> <a href="#"><em class="icon-google-plus"><span>icon</span></em></a></p>
+        </div>
+      </div>
+          </div>
+      <h4 class="nws-title">Novedades</h4>
+      <form >
+      <input type="text" class="input-footer" placeholder="Direccion de correo" value="" name="email">
+      <input type="submit" class="submit-footer" value="SUSCRIBIR" name="submit">
+      </form>
+      <p>Suscribite para recibir ofertas y descuentos en tu correo electronico</p>
+        </div>    <div class="block">
+          <h4>Empresa</h4>
+          <div class="block_content">
+            <ul>
+              <li><a href="index.html?controller=history">Nosotros</a></li>
+              <li><a title="Mapa del sitio" href="index.html?controller=sitemap">Mapa del sitio</a></li>
+            </ul>
+          </div>
+        </div>    <div class="block">
+          <h4>Informacion</h4>
+          <div class="block_content">
+            <ul>
+              <li class="item"><a title="Envios" href="index.html?id_cms=1&amp;controller=cms&amp;id_lang=1">Envios</a></li>
+              <li class="item"><a title="Legal" href="index.html?id_cms=2&amp;controller=cms&amp;id_lang=1">Legal</a></li>
+              
+            </ul>
+          </div>
+        </div>    <div class="block last">
+  <h4>¿Donde estamos?</h4>
+  <div class="block_content"> HCI Master <br />
+    Av. Eduardo Madero 399 <br />
+    Buenos Aires <br />
+    Argentina <br />
+    Tel: (+54 11) 6393 - ITBA (4822) <br />
+    e-mail: <a href="mailto:informes@itba.edu.ar">informes@itba.edu.ar</a> </div>
+</div>
+  </div>
+</div>
+  </footer>
+   <div class="footer-wrap container_9">
+          <p>HCI 2014. Todos los derechos reservados<img src="images/Payments.png" class="right" alt="Metodos de pago" title="Metodos de pago" ></p>
+        </div></div>
+</body>
+</html>

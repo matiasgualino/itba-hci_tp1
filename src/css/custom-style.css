@@ -1,0 +1,143 @@
+
+
+/********************************************
+         First color scheme
+********************************************/
+
+aside .block h4, .pagination ul .active a, .dl-menuwrapper button, .dl-menuwrapper .dl-menu {
+	background-color: #96857C;
+}
+.i-tab li.active {
+	background-color: #535353;
+}
+html .first-bg, html .first-bg-hover:hover, .pagination ul a:hover, .cart .discount h2, .cart .shipping h2, .data-table thead th,.cart .totals th {
+	background-color: #96857C;
+}
+
+html .first-color, .btn-icon i {
+	color: #96857C;
+}
+html .first-brd, .pagination ul .active a, .sf-menu li a:after {
+	border-color: #96857C;
+}
+
+
+/********************************************
+         Second color scheme
+********************************************/
+
+
+html .second-bg, .sf-menu ul,.button.btn-checkout,.button.btn-checkout span,button.button span {
+	background: #272423;
+}
+html .second-color {
+	color: #555555;
+}
+html .second-brd {
+	border-color: #555555;
+}
+
+
+/********************************************
+         Third color scheme
+********************************************/
+
+
+html .third-bg {
+	background: #fff;
+}
+html .third-color {
+	color: #fff;
+}
+html .third-brd {
+	border-color: #fff;
+}
+
+
+
+
+/********************************************
+         Fourth color scheme
+********************************************/
+
+
+html .fourth-bg, .cart-table .btn-update span, .opc .active .step-title,html .block-progress dt.complete {
+	background-color: #424242;
+}
+html .fourth-color {
+	color: #424242;
+}
+html .fourth-brd {
+	border-color: #424242;
+}
+html .fifth-bg {
+	background-color: #8c967c;
+}
+html .fifth-color {
+	color: #8c967c;
+}
+html .fifth-brd {
+	border-color: #8c967c;
+}
+
+
+
+/********************************************
+         Other color scheme
+********************************************/
+
+html .products-grid  .first-bg,html .products-grid .first-bg i {
+	color: #fff;
+}
+html .btn-set  .first-bg,html .btn-set .first-bg i {
+	color: #fff;
+}
+
+
+.btn-active:hover {
+	background-color:#FFFFFF;
+	color: #555555 !important;
+	padding-left:14px !important;
+		padding-right:14px !important;
+}
+
+.btn-active:hover i{
+	color: #555555  !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #535353;
+ 
+}
+
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus{
+  background-color: #535353;
+    color: #FFFFFF;
+}
+
+
+.nav-tabs > .active > a,.accordion-toggle {
+ background-color: #535353;
+    color: #FFFFFF;
+    text-decoration: none !important;
+ 
+}
+
+
+.nav-tabs > li  {
+    background: none repeat scroll 0 0 #F5F5F5;
+
+
+}
+
+.btn-active{
+	color:#fff;
+}

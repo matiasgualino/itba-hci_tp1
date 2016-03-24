@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE 8]>
+<script type="text/javascript">
+location.replace("http://windows.microsoft.com/en-US/internet-explorer/products/ie/home");
+</script>
+<![endif]-->
+
+<html>
+<head>
+<title>B&G</title>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+<meta charset="utf-8">
+<meta name="description" content="B&G. Tienda de ropa online.">
+<meta name="author" content="HCI">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- CSS styles
+  ============================================================================== -->
+<link href="css/custom-style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" href="css/prettyPhoto.css" />
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/preset.css" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/grid.css" />
+<link rel="stylesheet" href="css/media-queries.css" />
+<link rel="stylesheet" href="css/superfish-modified.css" />
+<link rel="stylesheet" href="css/jquery.ui.slider.css" />
+<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+<link rel="stylesheet" href="css/icons/font-awesome.css" />
+<link rel="stylesheet" href="css/icons/font-theme.css" />
+<link rel="stylesheet" href="css/retina.css">
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/iview.css" />
+<link rel="stylesheet" href="css/iview/style.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css"  />
+<link rel="stylesheet" href="css/nouislider.fox.css" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css">
+<link rel="stylesheet" href="css/ie.css" />
+<link rel="stylesheet" href="css/hci.css" />
+
+<noscript>
+  <div id="no_script_msg">
+    <p> Habilite javascript y actualice la pagina.<br/>Si no sabe como:</p>
+    <a target="_blank" href="http://www.enable-javascript.com/es/">Click Aqui</a>
+  </div>
+</noscript>
+
+<!-- Javascripts
+    ============================================================================== -->
+<!--[if IE 8]><script src="js/respond.min.js"></script><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
+<script src="js/cssua.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/package.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.dlmenu.js"></script>
+<script src="js/jquery.session.js"></script>
+<script src="js/jquery.base64.js"></script>
+<script src="js/respond.src.js"></script>  
+<script src="js/jquery.validate.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/checkout.js"></script>
+<script src="js/login.js"></script>
+</head>
+<body class="noIE">
+
+
+<div id="page" class="clearfix">
+
+<div class="navbar navbar-static  cbp-af-header" >
+  <div class="cbp-af-inner ">
+    <div class="navbar-inner container_9 "> <span  class="nav pull-left"> <a title="B&G" href="./index.html" class="logo "><img alt="B&G" src="images/media/logo.png"></a> </span>
+      <ul id="header_nav" class="nav pull-right">
+        <li id="li-registro"><i class=""></i> <a href="register.html">Registrarme</a></li>
+        <li id="li-login">
+        <i class="icon-user dropdown-link dropdown-toggle"></i><a class="dropdown-link">Ingresar</a>
+          <ul class="dropdown-login">
+            <li>
+              <div class="wrap-login-header">
+                  <form id="login-form-header">
+                      <ul class="form-list">
+                        <li>
+                          <label class="required" for="username"><em>*</em>Nombre de usuario</label>
+                          <div class="input-box">
+                            <input type="text" value="" name="username" id="username" class="input-text required-entry validate-email" placeholder="Nombre de usuario...">
+                          </div>
+                        </li>
+                        <li>
+                          <label class="required" for="password"><em>*</em>Clave</label>
+                          <div class="input-box">
+                            <input type="password" name="password" id="password" class="input-text required-entry" placeholder="Clave...">
+                          </div>
+                        </li>
+                      </ul>
+                  </form>
+                  <div class="buttons-set-header">
+                    <p class="required">* Campos requeridos</p>
+                    <a class="f-left" href="./forgotpassword.html">Olvide mi clave</a>
+                    <button id="btnLogin" class="button" type="submit"><span><span>Ingresar</span></span></button>
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </li>
+        <li><i class="icon-heart"></i> <a href="./wishlist.html">Lista de deseos</a></li>
+        <li><i class="icon-circle-arrow-right"></i> <a href="./checkout-step1.html">Confirmar compra</a></li>
+         <li>
+          <i class="icon-shopping-cart dropdown-link dropdown-toggle"></i><a class="dropdown-link" id="shoppingCartTitle">Mi carrito</a>
+          <ul class="dropdown-login">
+            <li>
+              <div  class="shop-cart-info" id="header-info-cart">  </div>
+            </li>
+            <li>
+              <a href="shopping-cart.html" class="center textCenter big  bold see-shop-cart">Ver mi carrito</a>
+            </li>
+          </ul>
+        </li>
+        <li id='li-user' class="invisible" ><i class='icon-user'></i><a href='./userAccount.html' id='usernameDesc'></a></li>
+        <li id="li-logout" class="invisible" ><i class=''></i><a>Salir</a></li>
+      </ul>
+    </div>
+    <script src="js/classie.js"></script> 
+    <script src="js/cbpAnimatedHeader.min.js"></script> 
+    
+    <!-- Header -->
+    
+    <header id="header"  class="third-bg" >
+      <div id="dl-menu" class="dl-menuwrapper" style="display:none;">
+        <button class="dl-trigger"> <span class="informer-menu first-brd">1</span></button>
+        <ul id="menu" class="dl-menu">
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="sf-contener clearfix second-bg ">
+    <nav class="nav-wrap container_9">
+      <ul id="menu-sf" class="sf-menu clearfix  ">
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  <section class="container_9 clearfix col1" id="columns">
+  <div id="crumbs">
+        <ul id="breadcrumbs-two">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="#2">Confirmacion de compra</a></li>
+          <li><a href="#4">Paso 2</a></li>
+        </ul>
+      </div>
+      <br />
+    <article class=" grid_5" id="center_column">
+      <ol id="checkoutSteps" class="opc">
+       <li class="section" id="opc-billing">
+          <div class="step-title allow active"> <span class="number">PASO 2</span>
+            <h2>Informacion de pago</h2>
+            <a href="#">Edit</a> </div>
+          <div  class="step a-item" id="checkout-step-billing" >
+            <form  id="co-billing-form">
+              <fieldset>
+                <ul class="form-list">
+                  <li id="billing-new-address-form">
+                    <fieldset>
+                      <input type="hidden" id="billing:address_id" value="" name="billing[address_id]">
+                      <ul>
+                        <li class="fields">
+                          <div class="customer-name">
+                            <div class="field name-firstname">
+                              <label class="required" for="billing:firstname"><em>*</em>Nombre</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" maxlength="255" title="Nombre" value="" name="billing[firstname]" id="billing:firstname">
+                              </div>
+                            </div>
+                            <div class="field name-lastname">
+                              <label class="required" for="billing:lastname"><em>*</em>Apellido</label>
+                              <div class="input-box">
+                                <input type="text" class="input-text required-entry" maxlength="255" title="Apellido" value="" name="billing[lastname]" id="billing:lastname">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="field">
+                            <label for="billing:company">Compania</label>
+                            <div class="input-box">
+                              <input type="text" class="input-text " title="Compania" value="" name="billing[company]" id="billing:company">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label class="required" for="billing:email"><em>*</em>Correo electronico</label>
+                            <div class="input-box">
+                              <input type="text" class="input-text validate-email required-entry" title="Correo electronico" value="" id="billing:email" name="billing[email]">
+                            </div>
+                          </div>
+                        </li>
+                        <li class="wide">
+                          <label class="required" for="billing:street1"><em>*</em>Direccion</label>
+                          <div class="input-box">
+                            <input type="text" class="input-text  required-entry" value="" id="billing:street1" name="billing[street][]" title="Direccion">
+                          </div>
+                        </li>
+                        <li class="wide">
+                          <div class="input-box">
+                            <input type="text" class="input-text " value="" id="billing:street2" name="billing[street][]" title="Direccion">
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="field">
+                            <label class="required" for="billing:city"><em>*</em>Ciudad</label>
+                            <div class="input-box">
+                              <input type="text" id="billing:city" class="input-text  required-entry" value="" name="billing[city]" title="Ciudad">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label class="required" for="billing:region_id"><em>*</em>Provincia</label>
+                            <div class="input-box">
+                              <select  class="validate-select required-entry" title="Provincia" name="billing[region_id]" id="billing:region_id" >
+                                <option value="">-- Selecciona tu provincia --</option>
+                                <option value="Buenos Aires">Buenos Aires</option>
+                                <option value="Capital Federal">Capital Federal</option>
+                                <option value="Catamarca">Catamarca</option>
+                                <option value="Chaco">Chaco</option>
+                                <option value="Chubut">Chubut</option>
+                                <option value="Cordoba">Cordoba</option>
+                                <option value="Corrientes">Corrientes</option>
+                                <option value="Entre Rios">Entre Rios</option>
+                                <option value="Formosa">Formosa</option>
+                                <option value="Jujuy">Jujuy</option>
+                                <option value="La Pampa">La Pampa</option>
+                                <option value="La Rioja">La Rioja</option>
+                                <option value="Mendoza">Mendoza</option>
+                                <option value="Misiones">Misiones</option>
+                                <option value="Neuquen">Neuquen</option>
+                                <option value="Rio Negro">Rio Negro</option>
+                                <option value="Salta">Salta</option>
+                                <option value="San Juan">San Juan</option>
+                                <option value="San Luis">San Luis</option>
+                                <option value="Santa Cruz">Santa Cruz</option>
+                                <option value="Santa Fe">Santa Fe</option>
+                                <option value="Santiago del Estero">Santiago del Estero</option>
+                                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                                <option value="Tucuman">Tucuman</option>
+                              </select>
+                              <input type="text" style="display:none;" class="input-text regions required-entry" title="Provincia" value="" name="billing[region]" id="billing:region">
+                            </div>
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="field">
+                            <label class="required" for="billing:postcode"><em>*</em>Codigo postal</label>
+                            <div class="input-box">
+                              <input type="text" class="input-text validate-zip-international  required-entry" value="" id="billing:postcode" name="billing[postcode]" title="Codigo postal">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label class="required" for="billing:country_id"><em>*</em>Pais</label>
+                            <div class="input-box">
+                              <select title="Pais" class="validate-select" id="billing:country_id" name="billing[country_id]">
+                                <option value="">-- Selecciona tu pais --</option>
+                              <option value="AR">Argentina</option>
+                              <option value="BR">Brasil</option>
+                              <option value="BO">Bolivia</option>
+                              <option value="CH">Chile</option>
+                              <option value="CO">Colombia</option>
+                              <option value="EC">Ecuador</option>
+                              <option value="USA">Estados Unidos</option>
+                              <option value="MX">Mexico</option>
+                              <option value="PY">Paraguay</option>
+                              <option value="PE">Peru</option>
+                              <option value="UY">Uruguay</option>
+                              <option value="VE">Vanezuela</option>
+                              </select>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="fields">
+                          <div class="field">
+                            <label class="required" for="billing:telephone"><em>*</em>Telefono</label>
+                            <div class="input-box">
+                              <input type="text" id="billing:telephone" class="input-text  required-entry" title="Telefono" value="" name="billing[telephone]">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label for="billing:fax">Fax</label>
+                            <div class="input-box">
+                              <input type="text" id="billing:fax" class="input-text " title="Fax" value="" name="billing[fax]">
+                            </div>
+                          </div>
+                        </li>
+                        <li id="register-customer-password" class="fields">
+                          <div class="field">
+                            <label class="required" for="billing:customer_password"><em>*</em>Clave</label>
+                            <div class="input-box">
+                              <input type="password" class="input-text required-entry validate-password" title="Clave" id="billing:customer_password" name="billing[customer_password]">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label class="required" for="billing:confirm_password"><em>*</em>Confirmar clave</label>
+                            <div class="input-box">
+                              <input type="password" class="input-text required-entry validate-cpassword" id="billing:confirm_password" title="Confirmar clave" name="billing[confirm_password]">
+                            </div>
+                          </div>
+                        </li>
+                        <li class="no-display">
+                          <input type="hidden" value="1" name="billing[save_in_address_book]">
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </li>
+                  <li class="control">
+                    <input type="radio" class="radio" onclick="$('shipping:same_as_billing').checked = true;" title="Enviar a esta direccion" checked="checked" value="1" id="billing:use_for_shipping_yes" name="billing[use_for_shipping]">
+                    <label for="billing:use_for_shipping_yes">Enviar a esta direccion</label>
+                  </li>
+                  <li class="control">
+                    <input type="radio" class="radio" onclick="$('shipping:same_as_billing').checked = false;" title="Enviar a otra direccion" value="0" id="billing:use_for_shipping_no" name="billing[use_for_shipping]">
+                    <label for="billing:use_for_shipping_no">Enviar a otra direccion</label>
+                  </li>
+                </ul>
+                <div id="billing-buttons-container" class="buttons-set">
+                  <p class="required">* Campos obligatorios</p>
+                  <button onclick="toCheckout(3);" class="button" title="Continuar" type="button"><span><span>Continuar</span></span></button>
+                  <span style="display:none;" id="billing-please-wait" class="please-wait"> <img class="v-middle" title="Cargando el siguiente paso..." alt="Cargando el siguiente paso..." src="images/opc-ajax-loader.gif"> Cargando el siguiente paso... </span> </div>
+              </fieldset>
+            </form>
+          </div>
+        </li>
+      </ol>
+    </article>
+   
+  </section>
+  <br /><br />
+  <!-- Footer -->
+  <footer id="footer" >
+    <div class="footer-wrap container_9 "> <a href="#" class="backtotop"><img src="images/backtotop.png"  alt="Subir" title="Subir" ></a>
+  <div class="footer-set">
+    <div class="block">
+          <h4>Somos sociales</h4>
+           <div class="block_content">
+      <div id="footer-absolute" class="clearfix">
+        <div class="social">
+          <p><a href="#"> <em class="icon-facebook"><span>icon</span></em></a> <a href="#"><em class="icon-twitter"><span>icon</span></em></a> <a href="#"><em class="icon-rss"><span>icon</span></em></a> <a href="#"><em class="icon-pinterest"><span>icon</span></em></a> <a href="#"><em class="icon-google-plus"><span>icon</span></em></a></p>
+        </div>
+      </div>
+          </div>
+      <h4 class="nws-title">Novedades</h4>
+      <form >
+      <input type="text" class="input-footer" placeholder="Direccion de correo" value="" name="email">
+      <input type="submit" class="submit-footer" value="SUSCRIBIR" name="submit">
+      </form>
+      <p>Suscribite para recibir ofertas y descuentos en tu correo electronico</p>
+        </div>    <div class="block">
+          <h4>Empresa</h4>
+          <div class="block_content">
+            <ul>
+              <li><a href="index.html?controller=history">Nosotros</a></li>
+              <li><a title="Mapa del sitio" href="index.html?controller=sitemap">Mapa del sitio</a></li>
+            </ul>
+          </div>
+        </div>    <div class="block">
+          <h4>Informacion</h4>
+          <div class="block_content">
+            <ul>
+              <li class="item"><a title="Envios" href="index.html?id_cms=1&amp;controller=cms&amp;id_lang=1">Envios</a></li>
+              <li class="item"><a title="Legal" href="index.html?id_cms=2&amp;controller=cms&amp;id_lang=1">Legal</a></li>
+              
+            </ul>
+          </div>
+        </div>    <div class="block last">
+  <h4>¿Donde estamos?</h4>
+  <div class="block_content"> HCI Master <br />
+    Av. Eduardo Madero 399 <br />
+    Buenos Aires <br />
+    Argentina <br />
+    Tel: (+54 11) 6393 - ITBA (4822) <br />
+    e-mail: <a href="mailto:informes@itba.edu.ar">informes@itba.edu.ar</a> </div>
+</div>
+  </div>
+</div>
+  </footer>
+   <div class="footer-wrap container_9">
+<<<<<<< Temporary merge branch 1
+          <p>HCI 2014. Todos los derechos reservados
+            <img class ="Payment-image" src="images/Payment-visa.png"  alt="Metodos de pago" title="Visa" >
+            <img class ="Payment-image" src="images/Payment-maestro.png"  alt="Metodos de pago" title="Maestro">
+            <img class ="Payment-image" src="images/Payment-paypal.png" alt="Metodos de pago" title="PayPal" >
+            <img class ="Payment-image" src="images/Payment-s.png"  alt="Metodos de pago" title="S" ></p>
+=======
+          <p>HCI 2014. Todos los derechos reservados<img src="images/Payments.png" class="right" alt="Metodos de pago" title="Metodos de pago" ></p>
+>>>>>>> Temporary merge branch 2
+        </div></div>
+</body>
+</html>

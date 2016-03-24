@@ -1,0 +1,77 @@
+.cbp-af-header {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.sf-contener {
+	clear: both;
+	opacity:0.9;
+}
+
+/* Transitions and class for reduced height */
+.cbp-af-header h1,
+.cbp-af-header nav a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.cbp-af-inner {
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.99);
+}
+
+.logo img {
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+.cbp-af-header.cbp-af-header-shrink .sf-contener {
+		opacity:1;
+}
+
+.cbp-af-header.cbp-af-header-shrink .cbp-af-inner {
+ height: 44px;
+
+}
+.cbp-af-header.cbp-af-header-shrink .logo img {
+    max-width: 120px;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+
+.cbp-af-header-shrink  .nav.pull-right {
+
+    margin-top: 14px !important;
+}
+
+.cbp-af-header-shrink .border-ii {
+ font-size: 20px !important;
+    height: auto;
+    margin-top: -15px !important;
+    padding: 6px 5px 11px 6px;
+
+}
+
+.cbp-af-header-shrink .sf-menu ul {
+    margin-top: 14px;
+}
+.cbp-af-header-shrink .border-i {
+    font-size: 14px !important;
+    margin-top: -16px !important;
+    padding: 16px 7px 14px 17px;
+}
+
+.cbp-af-header-shrink .sf-menu a {
+    font-size: 13px;
+    padding: 12px 15px;
+
+}
